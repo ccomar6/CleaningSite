@@ -1,0 +1,58 @@
+/* Ensure root, body, and #root take full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The app-container takes full height minus header/footer */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content should take remaining available space */
+main.content {
+  flex-grow: 1;  /* Fills the space between header and footer */
+  padding: 20px;
+  padding-top: 80px; /* Adjust the top padding to align content below the navbar */
+  overflow-y: auto;
+}
+
+/* Footer styling - ensures it stays at the bottom */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+/* Reset margins, padding, and set box-sizing to border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+/* Ensure root and content stretch to full height */
+#root {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content section that should take up remaining space */
+main {
+  flex-grow: 1;
+}

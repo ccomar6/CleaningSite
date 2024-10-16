@@ -1,0 +1,117 @@
+/* Services.css */
+
+.services-page-container {
+    padding: 40px;
+    text-align: center;
+    margin: 5vh auto;
+  }
+  
+  .services-overview {
+    margin-bottom: 40px;
+  }
+  
+  .services-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .service-image {
+    width: 40%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .service-text {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .service-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* CTA - Schedule a Cleaning */
+  .cta-schedule-section {
+    margin-top: 60px;
+    padding: 40px;
+    background-color: #e0f7fa;
+    border-radius: 15px;
+  }
+  
+  .cta-schedule-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-schedule-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .questions-section {
+    margin-top: 60px;
+    background-color: #e9ecef;
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  .questions-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .questions-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-secondary {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #218838;
+  }

@@ -1,0 +1,76 @@
+/* ApplyNow.css */
+
+.apply-container {
+    padding: 50px;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    margin: 5vh auto;
+    text-align: center;
+  }
+  
+  .apply-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .apply-container p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .job-roles {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .job-roles li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .apply-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .apply-form label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .apply-form input,
+  .apply-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .apply-form input[type="file"] {
+    padding: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }

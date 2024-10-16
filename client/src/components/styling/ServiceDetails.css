@@ -1,0 +1,62 @@
+/* ServiceDetails.css */
+
+/* Styling for individual service pages */
+.service-details-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+  .service-details-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-details-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .service-details-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .service-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .service-pricing {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .cta-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .cta-section .btn-primary {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-section .btn-primary:hover {
+    background-color: #0056b3;
+  }
